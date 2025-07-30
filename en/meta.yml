@@ -1,4 +1,4 @@
-title: default-project-template
+title: Editor storytime
 hero_image: images/banner.png
 description: default-project-template description
 version: 1
@@ -7,10 +7,17 @@ copyedit: false
 last_tested: "2025-01-01"
 steps:
   - title: What you will make
-  - title: Step title
+  - title: Output your first line
     completion:
       - engaged      
-  - title: Next step title
+  - title: Get the dragon's name
+  - title: Join the story parts
+  - title: Size and age of the dragon
+  - title: Is the dragon old?
+  - title: Add some random details
+  - title: Add MORE random details!
+  - title: Choose random details
+  - title: Tell your story
     completion:
       - internal
   - title: Challenge

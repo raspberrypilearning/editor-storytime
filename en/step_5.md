@@ -1,19 +1,15 @@
-## Join the story parts
+## Size and age of the dragon
 
-Add another line of code to print the name of the dragon to the screen. 
+It's time to get some more information about the dragon.
 
 --- task ---
-
-Use the `name` variable to print the name to the screen. 
-
-In Python, you can use the `+` operator to join strings together.
 
 --- code ---
 ---
 language: python
 line_numbers: true
 line_number_start: 1
-line_highlights: 6
+line_highlights: 8-12
 ---
 from random import choice
 
@@ -21,6 +17,12 @@ print("We are going to hear a story about a dragon!")
 
 name = input("What is the name of the dragon? ")
 print("Excellent. The dragon is called " + name)
+
+size = input("Is the dragon big or small? ")
+print("It was a " + size + " dragon")
+
+age = input("How old is the dragon? ")
+print("The dragon is " + age + " years old")
 
 --- /code ---
 
@@ -31,3 +33,4 @@ print("Excellent. The dragon is called " + name)
 **Test**: Run your code again and check the output.
 
 --- /task ---
+
