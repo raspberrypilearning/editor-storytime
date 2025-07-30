@@ -1,0 +1,4 @@
+name: "Storytime Complete"
+identifier: "editor-storytime-complete"
+type: 'python'
+build: true
