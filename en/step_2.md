@@ -1,6 +1,6 @@
 ## Output your first line
 
-The story time program generates a story, and prints it to the screen so that you can read it. 
+The story time program generates a story and prints it to the screen so that you can read it. 
 
 First, use the `print` function to display text in the 'Text output' area of the Editor.
 
