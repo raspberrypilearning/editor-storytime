@@ -1,1 +1,1 @@
-print("Hello")
+from random import choice
