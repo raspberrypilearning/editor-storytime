@@ -10,7 +10,7 @@ You will use Python to create a program that generates a random story, based on 
 <div style="flex-basis: 175px; flex-grow: 1">  
 Click on the <strong>Run</strong> button and read the output.
 
-  When you are asked, type in the name of your dragon to begin the story and tap <kbd>Enter</kbd>.
+  Type in the name of your dragon and tap <kbd>Enter</kbd> to begin the story.
 
 </div>
 <div class="trinket">
