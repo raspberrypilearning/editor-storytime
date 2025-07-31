@@ -1,6 +1,6 @@
 ## What you will make
 
-You will use Python to create a program that generates a random story, based on what a user types in.
+You will use Python to create a program that generates a random story, based on what the user types in.
 
 ### Play ▶️
 
