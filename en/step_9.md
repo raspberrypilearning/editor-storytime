@@ -10,6 +10,8 @@ This will help generate your story, and should make it fun!
 
 --- task ---
 
+--- /task ---
+
 Create a variable called `friend`. 
 
 Assign the new variable a random item from the `friends` list and use the `friend` variable in a `print` function.
@@ -31,7 +33,7 @@ print("The friend is " + friend)
 
 --- /code ---
 
---- /task ---
+
 </div>
 --- task ---
 
@@ -40,6 +42,7 @@ Each time you run the code, the variable should be randomly assigned a new item 
 --- /task ---
 
 --- task ---
+--- /task ---
 
 **Delete** the print line.
 
@@ -66,4 +69,4 @@ place = choice(places)
 
 --- /code ---
 
---- /task ---
+

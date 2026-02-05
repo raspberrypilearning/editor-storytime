@@ -15,7 +15,7 @@ First, type `story =` to create a variable to store your story in.
 
 Now use all the variables you have to make an imaginative story of your own. There is an example provided below, but you can make any story you like.
 
---- task ---
+
 
 Write your story putting the variables together. Then on the last line of your program, print the story to the screen.
 <div class="c-project-code">
@@ -41,7 +41,7 @@ story = "Once upon a time, there was a dragon called " + name + ". The dragon wa
 print(story)
 
 --- /code ---
-
+--- task ---
 --- /task ---
 </div>
 --- task ---
