@@ -1,19 +1,19 @@
-## Is the dragon old?
+<h2 class="c-project-heading--task">Decide if the dragon is old</h2>
+--- task ---
 
-Dragons live for a long time. 
+Use`if` and `else` to set the dragon's age to 'young' or 'old'. 
 
-They are only old if their age is more than 1000 years!
+--- /task ---
+
+Dragons live for a long time. They are only old if their age is more than 1000 years!
 
 --- task ---
 
-Use **conditional selection** to set the description to 'young' or 'old'. 
+Use **more than** (`>`) to test the user input. `if` dragons are more than 1000 years, they are old. `else` they are young.
 
-With `if` and `else` statements, you can make decisions in your Python program. 
+--- /task ---
 
-With the **greater than** operator (`>`), you can test whether a number is larger than another number.
-
-**Notice**: You must **type cast** the `age` variable, so the computer uses it as a **number** and not a **character string**. In Python, there is a big difference between the **characters** `1` `0` `0` and the **number** `100`.
-
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -42,9 +42,6 @@ else:
 print("It was an " + description + " dragon.")
 
 --- /code ---
-
---- /task ---
-
 --- task ---
 
 **Test**: Run your code again and check the output.
@@ -53,7 +50,13 @@ If you enter an age less than 1000, you should see the dragon is young.
 
 If you enter an age more than 1000, you should see the dragon is old.
 
-What happens if you enter an age of exactly 1000?
-
 --- /task ---
+
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+In Python, there is a difference between the **character** '1' and the **number** `1`. Using `int(age)` makes the input into a **number**.
+
+</div>
 

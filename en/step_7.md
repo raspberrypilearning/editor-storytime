@@ -1,17 +1,20 @@
-## Add some random details
-
-Your program will generate a lot of the story at random. 
-
-You need to create some lists to store different and funny words that the program can choose from.
-
-Lists can be named in the same way as variables. For example, to create a list called `numbers` with four items in it, you could use the line `numbers = ["zero", "one", "two", "three"]`.
+<h2 class="c-project-heading--task">Add other things to your story</h2>
 
 --- task ---
 
-Create a list of things that the dragon can interact with. 
+Create a list of different things such as `goblins` or `cakes` that the dragon can interact with. 
 
-Use the list of items we use here, or add your own items!
+--- /task ---
 
+--- task ---
+
+The programme will pick one of the list of words at random, this makes the story different each time.
+
+Start with the list here, and then add your own items.
+
+--- /task ---
+
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -41,6 +44,21 @@ print("It was an " + description + " dragon.")
 
 things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
 
+story
 --- /code ---
 
+--- task ---
+
+**Test**: Run your code again and check the output.
+
 --- /task ---
+
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+Lists can be named in the same way as variables. For example, to create a list called `numbers` with four items in it, you could use the line `numbers = ["zero", "one", "two", "three"]`.
+
+</div>

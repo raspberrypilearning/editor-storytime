@@ -1,15 +1,19 @@
-## Choose random details
+<h2 class="c-project-heading--task">Choose random details</h2>
+
+--- task ---
 
 Randomly pick one item from each list. 
 
 This will help generate your story, and should make it fun!
+
+--- /task ---
 
 --- task ---
 
 Create a variable called `friend`. 
 
 Assign the new variable a random item from the `friends` list and use the `friend` variable in a `print` function.
-
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -28,7 +32,7 @@ print("The friend is " + friend)
 --- /code ---
 
 --- /task ---
-
+</div>
 --- task ---
 
 **Test**: Run your code and check the output.

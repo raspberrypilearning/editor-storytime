@@ -1,8 +1,11 @@
-## Tell your story
-
-Now you can have some fun with creating your story! 
+<h2 class="c-project-heading--task">Tell your story</h2>
+--- task ---
+Now you can 
+have some fun with creating your story! 
 
 Be as imaginative and creative as you like.
+
+--- /task ---
 
 --- task ---
 
@@ -15,7 +18,7 @@ Now use all the variables you have to make an imaginative story of your own. The
 --- task ---
 
 Write your story putting the variables together. Then on the last line of your program, print the story to the screen.
-
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -40,7 +43,7 @@ print(story)
 --- /code ---
 
 --- /task ---
-
+</div>
 --- task ---
 
 **Test**: Run your code to create your story!

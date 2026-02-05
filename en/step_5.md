@@ -1,9 +1,12 @@
-## Size and age of the dragon
-
-It's time to get some more information about the dragon.
+<h2 class="c-project-heading--task">Size and age of the dragon</h2>
 
 --- task ---
 
+Ask about the dragon's `size` and `age`.
+
+--- /task ---
+
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -13,7 +16,7 @@ line_highlights: 8-12
 ---
 from random import choice
 
-print("We are going to hear a story about a dragon!")
+print("We are going to tell a story about a dragon!")
 
 name = input("What is the name of the dragon? ")
 print("Excellent. The dragon is called " + name)
@@ -26,11 +29,10 @@ print("The dragon is " + age + " years old")
 
 --- /code ---
 
---- /task ---
-
 --- task ---
 
 **Test**: Run your code again and check the output.
 
 --- /task ---
 
+</div>

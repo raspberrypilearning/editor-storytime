@@ -1,13 +1,13 @@
-## Join the story parts
-
-Add another line of code to print the name of the dragon to the screen. 
+<h2 class="c-project-heading--task">Start the story</h2>
 
 --- task ---
 
 Use the `name` variable to print the name to the screen. 
 
-In Python, you can use the `+` operator to join strings together.
+--- /task ---
 
+
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -17,17 +17,27 @@ line_highlights: 6
 ---
 from random import choice
 
-print("We are going to hear a story about a dragon!")
+print("We are going to tell a story about a dragon!")
 
 name = input("What is the name of the dragon? ")
-print("Excellent. The dragon is called " + name)
+
+story = "Once upon a time, there was a dragon called " + name" 
+
+print(story)
 
 --- /code ---
-
---- /task ---
 
 --- task ---
 
 **Test**: Run your code again and check the output.
 
 --- /task ---
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+In Python, you can use `+` to join text together.
+
+</div>
