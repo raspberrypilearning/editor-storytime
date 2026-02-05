@@ -2,10 +2,9 @@
 
 --- task ---
 
-Use the `name` variable to print the name to the screen. 
+Use the dragon's `name` in a `story` and print to the screen.
 
 --- /task ---
-
 
 <div class="c-project-code">
 --- code ---
@@ -13,17 +12,24 @@ Use the `name` variable to print the name to the screen.
 language: python
 line_numbers: true
 line_number_start: 1
-line_highlights: 6
+line_highlights: 7-9
 ---
 from random import choice
 
 print("We are going to tell a story about a dragon!")
 
-name = input("What is the name of the dragon? ")
+# input from user
+name = input("What is the name of the dragon?")
 
-story = "Once upon a time, there was a dragon called " + name" 
 
-print(story)
+# The story is made in parts
+start = "Once upon a time, there was a dragon called " + name + "."
+
+
+# Add the story parts together
+story = start
+
+print(story) # prints story, keep this at the end
 
 --- /code ---
 

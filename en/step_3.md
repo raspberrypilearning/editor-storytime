@@ -17,6 +17,7 @@ from random import choice
 
 print("We are going to tell a story about a dragon!")
 
+# input from user
 name = input("What is the name of the dragon?")
 
 --- /code ---

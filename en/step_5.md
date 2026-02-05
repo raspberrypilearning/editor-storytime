@@ -1,8 +1,8 @@
-<h2 class="c-project-heading--task">Size and age of the dragon</h2>
+<h2 class="c-project-heading--task">How big is the dragon?</h2>
 
 --- task ---
 
-Ask about the dragon's `size` and `age`.
+Ask about the dragon's `size` and use the input in the story.
 
 --- /task ---
 
@@ -18,14 +18,19 @@ from random import choice
 
 print("We are going to tell a story about a dragon!")
 
-name = input("What is the name of the dragon? ")
-print("Excellent. The dragon is called " + name)
-
+# input from user
+name = input("What is the name of the dragon?")
 size = input("Is the dragon big or small? ")
-print("It was a " + size + " dragon")
 
-age = input("How old is the dragon? ")
-print("The dragon is " + age + " years old")
+
+# The story is made in parts
+start = "Once upon a time, there was a " + size + "dragon called " + name + "."
+
+
+# Add the story parts together
+story = start
+
+print(story) # prints story, keep this at the end
 
 --- /code ---
 
@@ -34,5 +39,13 @@ print("The dragon is " + age + " years old")
 **Test**: Run your code again and check the output.
 
 --- /task ---
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+BULLET POINT DEBUG POINTS HERE (OPTIONAL)
 
 </div>
