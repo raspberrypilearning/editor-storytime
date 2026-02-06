@@ -21,14 +21,19 @@ line_number_start: 1
 line_highlights: 17, 23
 ---
 # Possible choices 
-actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
+actions = ["slay", "kiss", "chase", "marry", "rescue", "eat"]
 things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
+
+
+# Choose randomly
+action = choice(actions)
+thing = choice(things)
 
 
 # Parts of the story
 start = "Once upon a time, there was a " + size + " dragon called " + name + "."
 description = " The dragon was very " + state + "."
-hobby = " It liked to " + choice(actions) + " " + choice(things) + "."
+hobby = " It liked to " + action + " " + thing + "."
 
 
 # Assemble it

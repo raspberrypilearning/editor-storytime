@@ -9,16 +9,14 @@ Have some fun with creating your story! Be as imaginative and creative as you li
 
 --- task ---
 
-Below there are two more lists and more parts to the story to help you get started.
-- the names of the dragon's `friends`
-- a list of `places` such as "Middle Earth" and "Narnia"
+To help you get started there are two more lists and more parts to the story below.
 
 --- /task ---
 
 
 --- task ---
 
-Add to the story with your own lists, and story parts.
+Edit the code and add to the story with your own lists, and story parts.
 
 --- /task ---
 
@@ -28,24 +26,31 @@ Add to the story with your own lists, and story parts.
 language: python
 line_numbers: true
 line_number_start: 15
-line_highlights: 22-24
+line_highlights: 18-19, 26-29, 33
 ---
 
 # Possible choices 
-actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
+actions = ["slay", "kiss", "chase", "marry", "rescue", "eat"]
 things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
 friends = ["Amilyn", "Lila", "Nuala", "Idris", "Jonah", "Ari"]
 places = ["Middle Earth", "Narnia", "Hogwarts", "Alderaan"]
 
 
+# Choose randomly
+action = choice(actions)
+thing = choice(things)
+friend = choice(friends)
+place = choice(places)
+
+
 # Parts of the story
 start = "Once upon a time, there was a " + size + " dragon called " + name + "."
 description = " The dragon was very " + state + "."
-hobby = " It liked to " + choice(actions) + " " + choice(things) + "."
-problem = " Sadly, the dragon was so great at this that it ran out of " + choice(things) + "."
-helper = " Luckily the dragon had a friend called " + choice(friends) + " who knew where to find more " + choice(things) + "."
-journey = " They travelled far away and found lots of " + choice(things) + " in " + choice(places) + "."
-ending = " They lived happily ever after with all the " + choice(things) + " they wanted."
+hobby = " It liked to " + action + " " + thing + "."
+problem = " Sadly, the dragon was so great at this that it ran out of " + thing + "."
+helper = " Luckily the dragon had a friend called " + friend + " who knew where to find more " + thing + "."
+journey = " They traveled far away and found lots of " + thing + " in " + place + "."
+ending = " They lived happily ever after with all the " + thing + " they wanted."
 
 
 # Assemble it

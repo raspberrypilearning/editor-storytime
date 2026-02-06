@@ -25,9 +25,9 @@ name = input("What is the name of the dragon?")
 size = input("Is the dragon big or small? ")
 age = input("How old is the dragon? ")
 if int(age) > 1000:
-    phase = "an old"
+    phase = "old"
 else:
-    phase = "a young"
+    phase = "young"
 
 # Possible choices 
 actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
