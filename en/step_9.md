@@ -1,8 +1,8 @@
-<h2 class="c-project-heading--task">Add more things</h2>
+<h2 class="c-project-heading--task">Add a list of things</h2>
 
 --- task ---
 
-Add to the hobby part by creating a list of more things your dragon likes such as `goblins` or `cakes`.
+Add to the dragon's hobby by creating a list of more things your dragon likes such as `goblins` or `cakes`.
 
 --- /task ---
 
@@ -35,7 +35,7 @@ things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
 # story parts
 start = "Once upon a time, there was a " + size + "dragon called " + name + "."
 description = " The dragon was very " + state + "."
-hobby = " It liked to " + action + " " + thing + "."
+hobby = " It liked to " + choice(actions) + " " + choice(things) + "."
 
 
 # Add the story parts together
@@ -52,3 +52,6 @@ print(story) # prints story, keep this at the end
 --- /task ---
 
 </div>
+
+
+

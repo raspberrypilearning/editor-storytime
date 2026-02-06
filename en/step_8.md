@@ -2,19 +2,10 @@
 
 --- task ---
 
-Randomly pick one item from each list. 
-
-This will help generate your story, and should make it fun!
+Use `choice()` to pick one of the words from `actions` at random, this makes the story different each time.
 
 --- /task ---
 
---- task ---
-
---- /task ---
-
-Create a variable called `friend`. 
-
-Assign the new variable a random item from the `friends` list and use the `friend` variable in a `print` function.
 <div class="c-project-code">
 --- code ---
 ---
@@ -23,50 +14,38 @@ line_numbers: true
 line_number_start: 21
 line_highlights: 26-27
 ---
-things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
-friends = ["Amilyn", "Lila", "Nuala", "Idris", "Jonah", "Ari"]
-actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
-places = ["Middle Earth", "Narnia", "Hogwarts", "Alderaan"]
 
-friend = choice(friends)
-print("The friend is " + friend)
+from random import choice
+
+print("We are going to tell a story about a dragon!")
+
+# input from user
+name = input("What is the name of the dragon?")
+size = input("Is the dragon big or small? ")
+age = input("How old is the dragon? ")
+if int(age) > 1000:
+    phase = "an old"
+else:
+    phase = "a young"
+
+# possible choices for the story 
+actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
+
+# story parts
+start = "Once upon a time, there was a " + size + "dragon called " + name + "."
+description = " The dragon was very " + state + "."
+hobby = " It liked to " + choice(actions) + "."
+
+# Add the story parts together
+story = start + description + hobby
+
+print(story) # prints story, keep this at the end
 
 --- /code ---
-
-
 </div>
 --- task ---
 
 **Test**: Run your code and check the output.
-Each time you run the code, the variable should be randomly assigned a new item from the `friends` list.
+Each time you run the code, the there will be a random `choice` from the `actions` list added to the story.
 --- /task ---
-
---- task ---
---- /task ---
-
-**Delete** the print line.
-
-Create three more variables called `action`, `place`, and `thing`. 
-
-Assign them random items from the `actions`, `places`, and `things` lists.
-
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 21
-line_highlights: 27-29
----
-things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
-friends = ["Amilyn", "Lila", "Nuala", "Idris", "Jonah", "Ari"]
-actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
-places = ["Middle Earth", "Narnia", "Hogwarts", "Alderaan"]
-
-friend = choice(friends)
-thing = choice(things)
-action = choice(actions)
-place = choice(places)
-
---- /code ---
-
 

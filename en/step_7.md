@@ -8,9 +8,7 @@ Create a list of stuff your dragon likes to do such as `slay` or `kiss`. These w
 
 --- task ---
 
-The programme will pick one of the list of words at random, this makes the story different each time.
-
-Start with the list below, and then add your own items.
+Start with the list below, and then add more actions using the same format.
 
 --- /task ---
 
@@ -41,7 +39,6 @@ actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
 # story parts
 start = "Once upon a time, there was a " + size + "dragon called " + name + "."
 description = " The dragon was very " + state + "."
-hobby = " It liked to " + action + "."
 
 
 # Add the story parts together
