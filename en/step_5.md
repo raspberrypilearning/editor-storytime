@@ -12,13 +12,12 @@ Ask about the dragon's `size` and `age`. **Add the size** answer to the `start` 
 language: python
 line_numbers: true
 line_number_start: 5
-line_highlights: 7, 11
+line_highlights: 7-8, 11
 ---
 # Input from user
 name = input("What is the name of the dragon?")
 size = input("Is the dragon big or small?")
 age = input("How old is the dragon? ")
-
 
 # Parts of the story
 start = "Once upon a time, there was a " + size + " dragon called " + name + "."

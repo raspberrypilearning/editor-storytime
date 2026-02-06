@@ -5,10 +5,6 @@ Use`if` and `else` to set the dragon's age to 'young' or 'old'.
 
 --- /task ---
 
-
-Dragons live for a long time. They are only **old** if their age is more than 1000 years! 
-
-
 --- task ---
 
 Use a **more than** symbol `>` to test the user input. `if` dragons are more than 1000 years, they are old. `else` they are young. 
@@ -29,7 +25,7 @@ Record the answer as `phase`. Then add the `phase` into the `description` part o
 language: python
 line_numbers: true
 line_number_start: 5
-line_highlights: 9-12, 17
+line_highlights: 9-12, 16
 ---
 # Input from user
 name = input("What is the name of the dragon?")
@@ -42,8 +38,7 @@ else:
 
 # Parts of the story
 start = "Once upon a time, there was a " + size + " dragon called " + name + "."
-description = " The dragon was very " + phase + "."
-
+description = name + " was very " + phase + "."
 
 # Assemble it
 story = start + description

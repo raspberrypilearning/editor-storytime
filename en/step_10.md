@@ -25,16 +25,14 @@ Edit the code and add to the story with your own lists, and story parts.
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 18-19, 26-29, 33
+line_number_start: 14
+line_highlights: 17-18, 23-24, 30-33, 36
 ---
-
 # Possible choices 
 actions = ["slay", "kiss", "chase", "marry", "rescue", "eat"]
 things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
 friends = ["Amilyn", "Lila", "Nuala", "Idris", "Jonah", "Ari"]
 places = ["Middle Earth", "Narnia", "Hogwarts", "Alderaan"]
-
 
 # Choose randomly
 action = choice(actions)
@@ -42,22 +40,17 @@ thing = choice(things)
 friend = choice(friends)
 place = choice(places)
 
-
 # Parts of the story
 start = "Once upon a time, there was a " + size + " dragon called " + name + "."
-description = " The dragon was very " + state + "."
+description = name + " was very " + phase + "."
 hobby = " It liked to " + action + " " + thing + "."
 problem = " Sadly, the dragon was so great at this that it ran out of " + thing + "."
 helper = " Luckily the dragon had a friend called " + friend + " who knew where to find more " + thing + "."
 journey = " They traveled far away and found lots of " + thing + " in " + place + "."
 ending = " They lived happily ever after with all the " + thing + " they wanted."
 
-
 # Assemble it
 story = start + description + hobby + problem + helper + journey + ending
-
-print(story) # prints story, keep this at the end
-
 --- /code ---
 
 --- task ---

@@ -17,8 +17,8 @@ Start with the list below, and then add more actions you can think of using the 
 ---
 language: python
 line_numbers: true
-line_number_start: 1
-line_highlights: 21
+line_number_start: 5
+line_highlights: 14-15
 ---
 # Input from user
 name = input("What is the name of the dragon?")
@@ -32,16 +32,9 @@ else:
 # Possible choices 
 actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
 
-
 # Parts of the story
 start = "Once upon a time, there was a " + size + " dragon called " + name + "."
-description = " The dragon was very " + state + "."
-
-
-# Assemble it
-story = start + description
-
-print(story) # print the story, keep this at the end
+description = name + " was very " + phase + "."
 
 --- /code ---
 

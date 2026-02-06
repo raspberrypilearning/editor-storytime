@@ -17,30 +17,21 @@ Use `choice()` again to add a random thing to your story.
 ---
 language: python
 line_numbers: true
-line_number_start: 1
-line_highlights: 17, 23
+line_number_start: 14
+line_highlights: 16, 20, 25
 ---
 # Possible choices 
 actions = ["slay", "kiss", "chase", "marry", "rescue", "eat"]
 things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
 
-
 # Choose randomly
 action = choice(actions)
 thing = choice(things)
 
-
 # Parts of the story
 start = "Once upon a time, there was a " + size + " dragon called " + name + "."
-description = " The dragon was very " + state + "."
+description = name + " was very " + phase + "."
 hobby = " It liked to " + action + " " + thing + "."
-
-
-# Assemble it
-story = start + description + hobby
-
-print(story) # prints story, keep this at the end
-
 --- /code ---
 
 --- task ---
