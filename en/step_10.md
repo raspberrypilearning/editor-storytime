@@ -27,32 +27,19 @@ Add to the story with your own lists, and story parts.
 ---
 language: python
 line_numbers: true
-line_number_start: 19
+line_number_start: 15
 line_highlights: 22-24
 ---
 
-from random import choice
-
-print("We are going to tell a story about a dragon!")
-
-# input from user
-name = input("What is the name of the dragon?")
-size = input("Is the dragon big or small? ")
-age = input("How old is the dragon? ")
-if int(age) > 1000:
-    phase = "an old"
-else:
-    phase = "a young"
-
-# possible choices for the story 
+# Possible choices 
 actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
 things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
 friends = ["Amilyn", "Lila", "Nuala", "Idris", "Jonah", "Ari"]
 places = ["Middle Earth", "Narnia", "Hogwarts", "Alderaan"]
 
 
-# story parts
-start = "Once upon a time, there was a " + size + "dragon called " + name + "."
+# Parts of the story
+start = "Once upon a time, there was a " + size + " dragon called " + name + "."
 description = " The dragon was very " + state + "."
 hobby = " It liked to " + choice(actions) + " " + choice(things) + "."
 problem = " Sadly, the dragon was so great at this that it ran out of " + choice(things) + "."
@@ -61,13 +48,10 @@ journey = " They travelled far away and found lots of " + choice(things) + " in 
 ending = " They lived happily ever after with all the " + choice(things) + " they wanted."
 
 
-# Add the story parts together
+# Assemble it
 story = start + description + hobby + problem + helper + journey + ending
 
 print(story) # prints story, keep this at the end
-
-print("It was an " + description + " dragon.")
-
 
 --- /code ---
 

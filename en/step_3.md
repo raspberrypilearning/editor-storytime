@@ -11,20 +11,19 @@ Use `input` to ask the user for the dragon's name and store their response as `n
 language: python
 line_numbers: true
 line_number_start: 1
-line_highlights: 5
+line_highlights: 5-6
 ---
 from random import choice
 
 print("We are going to tell a story about a dragon!")
 
-# input from user
+# Input from user
 name = input("What is the name of the dragon?")
-
 --- /code ---
 
 --- task ---
 
-Run your code again to test whether the program asks for input.
+**Run** your code again to test whether the program asks for input.
 
 --- /task ---
 </div>

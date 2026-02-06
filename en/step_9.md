@@ -6,6 +6,11 @@ Add to the dragon's hobby by creating a list of more things your dragon likes su
 
 --- /task ---
 
+--- task ---
+Use `choice()` again to add a random thing to your story. 
+
+--- /task ---
+
 
 <div class="c-project-code">
 --- code ---
@@ -13,32 +18,20 @@ Add to the dragon's hobby by creating a list of more things your dragon likes su
 language: python
 line_numbers: true
 line_number_start: 1
-line_highlights: 21
+line_highlights: 17, 23
 ---
-from random import choice
-
-print("We are going to tell a story about a dragon!")
-
-# input from user
-name = input("What is the name of the dragon?")
-size = input("Is the dragon big or small? ")
-age = input("How old is the dragon? ")
-if int(age) > 1000:
-    phase = "an old"
-else:
-    phase = "a young"
-
-# possible choices for the story 
+# Possible choices 
 actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
 things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
 
-# story parts
-start = "Once upon a time, there was a " + size + "dragon called " + name + "."
+
+# Parts of the story
+start = "Once upon a time, there was a " + size + " dragon called " + name + "."
 description = " The dragon was very " + state + "."
 hobby = " It liked to " + choice(actions) + " " + choice(things) + "."
 
 
-# Add the story parts together
+# Assemble it
 story = start + description + hobby
 
 print(story) # prints story, keep this at the end

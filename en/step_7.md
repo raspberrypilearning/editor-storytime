@@ -2,13 +2,13 @@
 
 --- task ---
 
-Create a list of stuff your dragon likes to do such as `slay` or `kiss`. These will form part of the story.
+Create a list based on what your dragon likes to do such as `slay` or `kiss`. These will form a part of the story.
 
 --- /task ---
 
 --- task ---
 
-Start with the list below, and then add more actions using the same format.
+Start with the list below, and then add more actions you can think of using the same format.
 
 --- /task ---
 
@@ -20,11 +20,7 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 21
 ---
-from random import choice
-
-print("We are going to tell a story about a dragon!")
-
-# input from user
+# Input from user
 name = input("What is the name of the dragon?")
 size = input("Is the dragon big or small? ")
 age = input("How old is the dragon? ")
@@ -33,25 +29,35 @@ if int(age) > 1000:
 else:
     phase = "a young"
 
-# possible choices for the story 
+# Possible choices 
 actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
 
-# story parts
-start = "Once upon a time, there was a " + size + "dragon called " + name + "."
+
+# Parts of the story
+start = "Once upon a time, there was a " + size + " dragon called " + name + "."
 description = " The dragon was very " + state + "."
 
 
-# Add the story parts together
-story = start + description + hobby
+# Assemble it
+story = start + description
 
-print(story) # prints story, keep this at the end
+print(story) # print the story, keep this at the end
 
 --- /code ---
 
 --- task ---
 
-**Test**: Run your code again and check the output.
+**Test**: Run your code again to check that it works. There will be no new outputs in this step.
 
 --- /task ---
+
+</div>
+
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+Make sure you follow the same format when adding new actions.
 
 </div>

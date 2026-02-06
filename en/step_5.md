@@ -2,7 +2,7 @@
 
 --- task ---
 
-Ask about the dragon's `size` and use the input in the story.
+Ask about the dragon's `size` and `age`. **Add the size** answer to the `start` of your the story.
 
 --- /task ---
 
@@ -11,41 +11,23 @@ Ask about the dragon's `size` and use the input in the story.
 ---
 language: python
 line_numbers: true
-line_number_start: 1
-line_highlights: 8-12
+line_number_start: 5
+line_highlights: 7, 11
 ---
-from random import choice
-
-print("We are going to tell a story about a dragon!")
-
-# input from user
+# Input from user
 name = input("What is the name of the dragon?")
-size = input("Is the dragon big or small? ")
+size = input("Is the dragon big or small?")
+age = input("How old is the dragon? ")
 
 
-# The story is made in parts
-start = "Once upon a time, there was a " + size + "dragon called " + name + "."
-
-
-# Add the story parts together
-story = start
-
-print(story) # prints story, keep this at the end
-
+# Parts of the story
+start = "Once upon a time, there was a " + size + " dragon called " + name + "."
 --- /code ---
 
 --- task ---
 
-**Test**: Run your code again and check the output.
+**Test**: Run your code again and check that the story has changed.
 
 --- /task ---
-
-</div>
-
-<div class="c-project-callout c-project-callout--debug">
-
-### Debugging
-
-BULLET POINT DEBUG POINTS HERE (OPTIONAL)
 
 </div>
