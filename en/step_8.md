@@ -13,7 +13,7 @@ Use `choice(actions)` to pick a hobby from `actions`. Store it as `action`, and 
 language: python
 line_numbers: true
 line_number_start: 14
-line_highlights: 17-18, 25
+line_highlights: 17-18, 23, 26
 ---
 # Possible choices 
 actions = ["slay", "kiss", "chase", "marry", "rescue", "eat"]
