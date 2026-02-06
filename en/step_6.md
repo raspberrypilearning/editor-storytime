@@ -42,9 +42,6 @@ description = name + " was very " + phase + "."
 
 # Assemble it
 story = start + description
-
-print(story) # print the story, keep this at the end
-
 --- /code ---
 
 --- task ---
@@ -62,7 +59,7 @@ If you enter an age more than 1000, you should see the dragon is old.
 
 ### Debugging
 
-Check that you added `+ description` to make the story.
+Check that you added `+` in description to make the story.
 
 </div>
 

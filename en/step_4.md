@@ -24,7 +24,6 @@ start = "Once upon a time, there was a dragon called " + name + "."
 story = start
 
 print(story) # prints story, keep this at the end
-
 --- /code ---
 
 --- task ---

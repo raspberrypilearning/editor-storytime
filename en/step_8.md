@@ -28,9 +28,6 @@ hobby = " It liked to " + action + "."
 
 # Assemble it
 story = start + description + hobby
-
-print(story) # prints story, keep this at the end
-
 --- /code ---
 
 --- task ---

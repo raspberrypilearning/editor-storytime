@@ -35,7 +35,6 @@ actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
 # Parts of the story
 start = "Once upon a time, there was a " + size + " dragon called " + name + "."
 description = name + " was very " + phase + "."
-
 --- /code ---
 
 --- task ---
