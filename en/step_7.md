@@ -24,10 +24,8 @@ Start with the list below, and then add more actions you can think of using the 
 language: python
 line_numbers: true
 line_number_start: 5
-line_highlights: 14-18, 23, 26
+line_highlights: 10-14, 19, 22
 ---
-if int(age) > 1000:
-    phase = 'old'
 else:
     phase = 'young'
 

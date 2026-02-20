@@ -12,7 +12,7 @@ Ask about the dragon's `size` and `age`. **Add the size** answer to the `start` 
 language: python
 line_numbers: true
 line_number_start: 5
-line_highlights: 7-8, 10-11
+line_highlights: 7-11
 ---
 # Input from user
 name = input('What is the name of the dragon?')
