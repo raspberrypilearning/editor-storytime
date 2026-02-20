@@ -25,7 +25,7 @@ Record the answer as `phase`. Then add the `phase` into the `description` part o
 language: python
 line_numbers: true
 line_number_start: 5
-line_highlights: 9-12, 16, 18-19
+line_highlights: 9-12, 16, 19
 ---
 # Input from user
 name = input('What is the name of the dragon?')
