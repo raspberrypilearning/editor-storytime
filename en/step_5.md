@@ -17,7 +17,7 @@ line_highlights: 7-8, 11
 # Input from user
 name = input("What is the name of the dragon?")
 size = input("Is the dragon big or small?")
-age = input("How old is the dragon? ")
+age = input("How old is the dragon? Type numbers only ")
 
 # Parts of the story
 start = "Once upon a time, there was a " + size + " dragon called " + name + "."
@@ -30,3 +30,13 @@ start = "Once upon a time, there was a " + size + " dragon called " + name + "."
 --- /task ---
 
 </div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+Make sure the age is in numbers or there will be an error
+
+</div>
+
+

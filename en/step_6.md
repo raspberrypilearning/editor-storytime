@@ -30,7 +30,7 @@ line_highlights: 9-12, 16, 19
 # Input from user
 name = input("What is the name of the dragon?")
 size = input("Is the dragon big or small? ")
-age = input("How old is the dragon? ")
+age = input("How old is the dragon? Type numbers only ")
 if int(age) > 1000:
     phase = "old"
 else:
