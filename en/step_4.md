@@ -15,10 +15,10 @@ line_number_start: 5
 line_highlights: 8-14
 ---
 # Input from user
-name = input("What is the name of the dragon?")
+name = input('What is the name of the dragon?')
 
 # Parts of the story
-start = "Once upon a time, there was a dragon called " + name + "."
+start = 'Once upon a time, there was a dragon called ' + name + '.'
 
 # Assemble it
 story = start

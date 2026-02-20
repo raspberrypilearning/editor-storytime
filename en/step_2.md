@@ -22,8 +22,7 @@ line_highlights: 3
 ---
 from random import choice
 
-print("We are going to tell a story about a dragon!")
-
+print('We are going to tell a story about a dragon!')
 --- /code ---
 --- task ---
 

@@ -15,10 +15,10 @@ line_highlights: 5-6
 ---
 from random import choice
 
-print("We are going to tell a story about a dragon!")
+print('We are going to tell a story about a dragon!')
 
 # Input from user
-name = input("What is the name of the dragon?")
+name = input('What is the name of the dragon?')
 --- /code ---
 
 --- task ---

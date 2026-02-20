@@ -1,8 +1,13 @@
-<h2 class="c-project-heading--task">Choose a random hobby</h2>
+<h2 class="c-project-heading--task">Add a list of things</h2>
 
 --- task ---
 
-Use `choice(actions)` to pick a hobby from `actions`. Store it as `action`, and use in your story.
+Add to the dragon's hobby by creating a list of more things your dragon likes such as `goblins` or `cakes`.
+
+--- /task ---
+
+--- task ---
+Use `choice()` again to add a random thing to your story. 
 
 --- /task ---
 
@@ -13,28 +18,29 @@ Use `choice(actions)` to pick a hobby from `actions`. Store it as `action`, and 
 language: python
 line_numbers: true
 line_number_start: 14
-line_highlights: 17-18, 23, 26
+line_highlights: 16, 20, 25
 ---
 # Possible choices 
-actions = ["slay", "kiss", "chase", "marry", "rescue", "eat"]
+actions = ['slay', 'kiss', 'chase', 'marry', 'rescue', 'eat']
+things = ['goblins', 'cakes', 'chocolate', 'rocks', 'trees']
 
 # Choose randomly
 action = choice(actions)
+thing = choice(things)
 
 # Parts of the story
-start = "Once upon a time, there was a " + size + " dragon called " + name + "."
-description = name + " was very " + phase + "."
-hobby = " It liked to " + action + "."
-
-# Assemble it
-story = start + description + hobby
+start = 'Once upon a time, there was a ' + size + ' dragon called ' + name + '.'
+description = name + ' was very ' + phase + '.'
+hobby = ' It liked to ' + action + ' ' + thing + '.'
 --- /code ---
 
 --- task ---
 
-**Test**: Run your code and check the output.
-Each time you run the code, the there will be a random `choice` from the `actions` list added to the story.
+**Test**: Run your code again and check the output.
 
 --- /task ---
 
 </div>
+
+
+

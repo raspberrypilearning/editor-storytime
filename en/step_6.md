@@ -25,20 +25,20 @@ Record the answer as `phase`. Then add the `phase` into the `description` part o
 language: python
 line_numbers: true
 line_number_start: 5
-line_highlights: 9-12, 16, 19
+line_highlights: 9-12, 16, 18-19
 ---
 # Input from user
-name = input("What is the name of the dragon?")
-size = input("Is the dragon big or small? ")
-age = input("How old is the dragon? Type numbers only ")
+name = input('What is the name of the dragon?')
+size = input('Is the dragon big or small? ')
+age = input('How old is the dragon? Type numbers only ')
 if int(age) > 1000:
-    phase = "old"
+    phase = 'old'
 else:
-    phase = "young"
+    phase = 'young'
 
 # Parts of the story
-start = "Once upon a time, there was a " + size + " dragon called " + name + "."
-description = name + " was very " + phase + "."
+start = 'Once upon a time, there was a ' + size + ' dragon called ' + name + '.'
+description = name + ' was very ' + phase + '.'
 
 # Assemble it
 story = start + description

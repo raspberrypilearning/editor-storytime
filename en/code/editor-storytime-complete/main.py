@@ -1,6 +1,8 @@
 from random import choice
 
 print("We are going to hear a story about a dragon!")
+
+# Input from user
 name = input("What is the name of the dragon? ")
 print("Excellent, the dragon is called " + name)
 size = input("Is the dragon big or small? ")
@@ -16,11 +18,13 @@ if int(age) > 1000:
 else:
     description = "young"
 
+# Possible choices 
 things = ["slay", "cakes", "chocolate", "rocks", "kittens"]
 friends = ["Amilyn", "Lila", "Nuala", "Idris", "Jonah", "Ari"]
 actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
 places = ["Middle Earth", "Narnia", "Hogwarts", "Alderaan"]
 
+# Choose randomly
 friend = choice(friends)
 thing = choice(things)
 action = choice(actions)
