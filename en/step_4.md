@@ -25,13 +25,13 @@ story = start
 
 print(story) # prints story, keep this at the end
 --- /code ---
+</div>
 
 --- task ---
 
 **Test**: Run your code again and check the output.
 
 --- /task ---
-</div>
 
 <div class="c-project-callout c-project-callout--tip">
 

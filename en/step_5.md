@@ -22,14 +22,13 @@ age = input('How old is the dragon? Type numbers only ')
 # Parts of the story
 start = 'Once upon a time, there was a ' + size + ' dragon called ' + name + '.'
 --- /code ---
+</div>
 
 --- task ---
 
 **Test**: Run your code again and check that the story has changed.
 
 --- /task ---
-
-</div>
 
 <div class="c-project-callout c-project-callout--tip">
 
@@ -38,5 +37,4 @@ start = 'Once upon a time, there was a ' + size + ' dragon called ' + name + '.'
 Make sure the age is in numbers or there will be an error
 
 </div>
-
 

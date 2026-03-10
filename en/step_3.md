@@ -20,10 +20,10 @@ print('We are going to tell a story about a dragon!')
 # Input from user
 name = input('What is the name of the dragon?')
 --- /code ---
+</div>
 
 --- task ---
 
 **Run** your code again to test whether the program asks for input.
 
 --- /task ---
-</div>

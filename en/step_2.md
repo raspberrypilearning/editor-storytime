@@ -24,12 +24,10 @@ from random import choice
 
 print('We are going to tell a story about a dragon!')
 --- /code ---
+</div>
 --- task ---
 
 Click **Run** to see what happens. You should see the words “We are going to hear a story about a dragon!” appear in the output display.
 
 --- /task ---
-</div>
-
-
 

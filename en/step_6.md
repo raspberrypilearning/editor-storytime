@@ -43,6 +43,7 @@ description = name + ' was very ' + phase + '.'
 # Assemble it
 story = start + description
 --- /code ---
+</div>
 
 --- task ---
 
@@ -52,8 +53,6 @@ If you enter an age less than 1000, you should see the dragon is young.
 If you enter an age more than 1000, you should see the dragon is old.
 
 --- /task ---
-
-</div>
 
 <div class="c-project-callout c-project-callout--debug">
 
@@ -71,4 +70,3 @@ Check that you added `+` in description to make the story.
 In Python, there is a difference between the **character** '1' and the **number** `1`. Using `int(age)` makes the input into a **number**.
 
 </div>
-

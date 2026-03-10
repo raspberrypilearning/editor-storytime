@@ -52,13 +52,13 @@ ending = ' They lived happily ever after with all the ' + thing + ' they wanted.
 # Assemble it
 story = start + description + hobby + problem + helper + journey + ending
 --- /code ---
+</div>
 
 --- task ---
 
 **Test**: Run your code to create your story!
 
 --- /task ---
-</div>
 
 
 <div class="c-project-callout c-project-callout--tip">

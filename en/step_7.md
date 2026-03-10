@@ -43,6 +43,7 @@ hobby = ' It liked to ' + action + '.'
 # Assemble it
 story = start + description + hobby
 --- /code ---
+</div>
 
 --- task ---
 
@@ -50,8 +51,6 @@ story = start + description + hobby
 Each time you run the code, the there will be a random `choice` from the `actions` list added to the story.
 
 --- /task ---
-
-</div>
 
 
 <div class="c-project-callout c-project-callout--debug">

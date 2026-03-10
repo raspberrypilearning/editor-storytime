@@ -33,14 +33,12 @@ start = 'Once upon a time, there was a ' + size + ' dragon called ' + name + '.'
 description = name + ' was very ' + phase + '.'
 hobby = ' It liked to ' + action + ' ' + thing + '.'
 --- /code ---
+</div>
 
 --- task ---
 
 **Test**: Run your code again and check the output.
 
 --- /task ---
-
-</div>
-
 
 
