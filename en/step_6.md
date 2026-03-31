@@ -1,25 +1,23 @@
-## Is the dragon old?
+## Add some random details
 
-Dragons live for a long time. 
+Your program will generate a lot of the story at random. 
 
-They are only old if their age is more than 1000 years!
+You need to create some lists to store different and funny words that the program can choose from.
 
---- task ---
+Lists can be named in the same way as variables. For example, to create a list called `numbers` with four items in it, you could use the line `numbers = ["zero", "one", "two", "three"]`.
 
-Use **conditional selection** to set the description to 'young' or 'old'. 
+### Step 1
 
-With `if` and `else` statements, you can make decisions in your Python program. 
+Create a list of things that the dragon can interact with. 
 
-With the **greater than** operator (`>`), you can test whether a number is larger than another number.
-
-**Notice**: You must **type cast** the `age` variable, so the computer uses it as a **number** and not a **character string**. In Python, there is a big difference between the **characters** `1` `0` `0` and the **number** `100`.
+Use the list of items we use here, or add your own items!
 
 --- code ---
 ---
 language: python
 line_numbers: true
 line_number_start: 1
-line_highlights: 14-19
+line_highlights: 21
 ---
 from random import choice
 
@@ -41,19 +39,7 @@ else:
 
 print("It was an " + description + " dragon.")
 
+things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
+
 --- /code ---
-
---- /task ---
-
---- task ---
-
-**Test**: Run your code again and check the output.
-
-If you enter an age less than 1000, you should see the dragon is young.
-
-If you enter an age more than 1000, you should see the dragon is old.
-
-What happens if you enter an age of exactly 1000?
-
---- /task ---
 

@@ -5,12 +5,12 @@ version: 1
 listed: false
 copyedit: false
 last_tested: "2025-01-01"
+landing: true
 steps:
-  - title: What you will make
   - title: Output your first line
-    completion:
-      - engaged      
   - title: Get the dragon's name
+    completion:
+      - engaged
   - title: Join the story parts
   - title: Size and age of the dragon
   - title: Is the dragon old?
@@ -20,7 +20,6 @@ steps:
   - title: Tell your story
     completion:
       - internal
-  - title: Challenge
-    challenge: true
-    completion:
       - external
+  - title: "Challenge: add more details"
+    challenge: true

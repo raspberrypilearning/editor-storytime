@@ -1,32 +1,31 @@
-## Get the dragon's name
+## Join the story parts
 
---- task ---
+Add another line of code to print the name of the dragon to the screen. 
 
-Create a new variable called `name`. 
+### Step 1
 
-Use the `input` function to ask the user for the dragon's name. 
+Use the `name` variable to print the name to the screen. 
 
-Store the input in the new `name` variable.
+In Python, you can use the `+` operator to join strings together.
 
 --- code ---
 ---
 language: python
 line_numbers: true
 line_number_start: 1
-line_highlights: 5
+line_highlights: 6
 ---
 from random import choice
 
 print("We are going to hear a story about a dragon!")
 
 name = input("What is the name of the dragon? ")
+print("Excellent. The dragon is called " + name)
 
 --- /code ---
 
---- /task ---
 
---- task ---
+### Step 2
 
-Run your code again to test whether the program asks for input.
+**Test**: Run your code again and check the output.
 
---- /task ---

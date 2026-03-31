@@ -1,22 +1,30 @@
-## What you will make
+## Output your first line
 
-You will use Python to create a program that generates a random story, based on what the user types in.
+The story time program generates a story and prints it to the screen so that you can read it. 
 
-### Play ▶️
+First, use the `print` function to display text in the 'Text output' area of the Editor.
 
---- task ---
+### Step 1
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
-Click on the <strong>Run</strong> button and read the output.
+Type this code on a new line.
 
-  Type in the name of your dragon and tap <kbd>Enter</kbd> to begin the story.
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 1
+line_highlights: 3
+---
+from random import choice
 
-</div>
-<div class="trinket">
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-storytime-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
-</div>
+print("We are going to hear a story about a dragon!")
 
---- /task ---
+--- /code ---
+
+
+### Step 2
+
+Click on the <strong>Run</strong> button to see what happens. You should see the words “We are going to hear a story about a dragon!” appear in the output display.
+
+
+You’re ready to ask the user for input, to learn more about the dragon.

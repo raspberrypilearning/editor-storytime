@@ -1,32 +1,30 @@
-## Output your first line
+## Get the dragon's name
 
-The story time program generates a story and prints it to the screen so that you can read it. 
+### Step 1
 
-First, use the `print` function to display text in the 'Text output' area of the Editor.
+Create a new variable called `name`. 
 
---- task ---
+Use the `input` function to ask the user for the dragon's name. 
 
-Type this code on a new line.
+Store the input in the new `name` variable.
 
 --- code ---
 ---
 language: python
 line_numbers: true
 line_number_start: 1
-line_highlights: 3
+line_highlights: 5
 ---
 from random import choice
 
 print("We are going to hear a story about a dragon!")
 
+name = input("What is the name of the dragon? ")
+
 --- /code ---
 
---- /task ---
 
---- task ---
+### Step 2
 
-Click on the <strong>Run</strong> button to see what happens. You should see the words “We are going to hear a story about a dragon!” appear in the output display.
+Run your code again to test whether the program asks for input.
 
---- /task ---
-
-You’re ready to ask the user for input, to learn more about the dragon.
