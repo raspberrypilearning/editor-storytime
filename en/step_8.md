@@ -1,44 +1,62 @@
-<h2 class="c-project-heading--task">Add a list of things</h2>
+## Choose random details
 
---- task ---
+Randomly pick one item from each list. 
 
-Add to the dragon's hobby by creating a list of more things your dragon likes such as `goblins` or `cakes`.
+This will help generate your story, and should make it fun!
 
---- /task ---
+### Step 1
 
---- task ---
-Use `choice()` again to add a random thing to your story. 
+Create a variable called `friend`. 
 
---- /task ---
+Assign the new variable a random item from the `friends` list and use the `friend` variable in a `print` function.
 
-
-<div class="c-project-code">
 --- code ---
 ---
 language: python
 line_numbers: true
-line_number_start: 14
-line_highlights: 16, 20, 25
+line_number_start: 21
+line_highlights: 26-27
 ---
-# Possible choices 
-actions = ['slay', 'kiss', 'chase', 'marry', 'rescue', 'eat']
-things = ['goblins', 'cakes', 'chocolate', 'rocks', 'trees']
+things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
+friends = ["Amilyn", "Lila", "Nuala", "Idris", "Jonah", "Ari"]
+actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
+places = ["Middle Earth", "Narnia", "Hogwarts", "Alderaan"]
 
-# Choose randomly
-action = choice(actions)
-thing = choice(things)
+friend = choice(friends)
+print("The friend is " + friend)
 
-# Parts of the story
-start = 'Once upon a time, there was a ' + size + ' dragon called ' + name + '.'
-description = name + ' was very ' + phase + '.'
-hobby = ' It liked to ' + action + ' ' + thing + '.'
 --- /code ---
-</div>
 
---- task ---
 
-**Test**: Run your code again and check the output.
+### Step 2
 
---- /task ---
+**Test**: Run your code and check the output.
+Each time you run the code, the variable should be randomly assigned a new item from the `friends` list.
 
+### Step 3
+
+**Delete** the print line.
+
+Create three more variables called `action`, `place`, and `thing`. 
+
+Assign them random items from the `actions`, `places`, and `things` lists.
+
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 21
+line_highlights: 27-29
+---
+things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
+friends = ["Amilyn", "Lila", "Nuala", "Idris", "Jonah", "Ari"]
+actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
+places = ["Middle Earth", "Narnia", "Hogwarts", "Alderaan"]
+
+friend = choice(friends)
+thing = choice(things)
+action = choice(actions)
+place = choice(places)
+
+--- /code ---
 

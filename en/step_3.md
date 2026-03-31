@@ -1,29 +1,31 @@
-<h2 class="c-project-heading--task">Get the dragon's name</h2>
---- task ---
+## Join the story parts
 
-Use `input` to ask the user for the dragon's name and store their response as `name`.
+Add another line of code to print the name of the dragon to the screen. 
 
---- /task ---
+### Step 1
 
-<div class="c-project-code">
+Use the `name` variable to print the name to the screen. 
+
+In Python, you can use the `+` operator to join strings together.
+
 --- code ---
 ---
 language: python
 line_numbers: true
 line_number_start: 1
-line_highlights: 5-6
+line_highlights: 6
 ---
 from random import choice
 
-print('We are going to tell a story about a dragon!')
+print("We are going to hear a story about a dragon!")
 
-# Input from user
-name = input('What is the name of the dragon?')
+name = input("What is the name of the dragon? ")
+print("Excellent. The dragon is called " + name)
+
 --- /code ---
-</div>
 
---- task ---
 
-**Run** your code again to test whether the program asks for input.
+### Step 2
 
---- /task ---
+**Test**: Run your code again and check the output.
+

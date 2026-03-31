@@ -1,24 +1,25 @@
 title: Editor storytime
 hero_image: images/banner.png
-description: Create a story that is new each time.
+description: default-project-template description
 version: 1
 listed: false
 copyedit: false
 last_tested: "2025-01-01"
+landing: true
 steps:
-  - title: Step 1
-  - title: Step 2
+  - title: Output your first line
+  - title: Get the dragon's name
     completion:
-      - engaged      
-  - title: Step 3
-  - title: Step 4
-  - title: Step 5
-  - title: Step 6
-  - title: Step 7
-  - title: Step 8
+      - engaged
+  - title: Join the story parts
+  - title: Size and age of the dragon
+  - title: Is the dragon old?
+  - title: Add some random details
+  - title: Add MORE random details!
+  - title: Choose random details
+  - title: Tell your story
     completion:
       - internal
-  - title: Step 9
-    challenge: true
-    completion:
       - external
+  - title: "Challenge: add more details"
+    challenge: true

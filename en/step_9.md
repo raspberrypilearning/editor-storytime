@@ -1,84 +1,45 @@
-<h2 class="c-project-heading--task">Challenge: Create more parts to the story</h2>
+## Tell your story
 
---- task ---
+Now you can have some fun with creating your story! 
 
-Have some fun with creating your story! Be as imaginative and creative as you like!
+Be as imaginative and creative as you like.
 
---- /task ---
+### Step 1
 
-
---- task ---
-
-To help you get started there are two more lists and more parts to the story below.
-
---- /task ---
+First, type `story =` to create a variable to store your story in.
 
 
---- task ---
+Now use all the variables you have to make an imaginative story of your own. There is an example provided below, but you can make any story you like.
 
-Edit the code and add to the story with your own lists, and story parts.
+### Step 2
 
---- /task ---
+Write your story putting the variables together. Then on the last line of your program, print the story to the screen.
 
-<div class="c-project-code">
 --- code ---
 ---
 language: python
 line_numbers: true
-line_number_start: 14
-line_highlights: 17-18, 23-24, 30-33, 36
+line_number_start: 21
+line_highlights: 31-33
 ---
-# Possible choices 
-actions = ['slay', 'kiss', 'chase', 'marry', 'rescue', 'eat']
-things = ['goblins', 'cakes', 'chocolate', 'rocks', 'trees']
-friends = ['Amilyn', 'Lila', 'Nuala', 'Idris', 'Jonah', 'Ari']
-places = ['Middle Earth', 'Narnia', 'Hogwarts', 'Alderaan']
+things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
+friends = ["Amilyn", "Lila", "Nuala", "Idris", "Jonah", "Ari"]
+actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
+places = ["Middle Earth", "Narnia", "Hogwarts", "Alderaan"]
 
-# Choose randomly
-action = choice(actions)
-thing = choice(things)
 friend = choice(friends)
+thing = choice(things)
+action = choice(actions)
 place = choice(places)
 
-# Parts of the story
-start = 'Once upon a time, there was a ' + size + ' dragon called ' + name + '.'
-description = name + ' was very ' + phase + '.'
-hobby = ' It liked to ' + action + ' ' + thing + '.'
-problem = ' Sadly, the dragon was so great at this that it ran out of ' + thing + '.'
-helper = ' Luckily the dragon had a friend called ' + friend + ' who knew where to find more ' + thing + '.'
-journey = ' They traveled far away and found lots of ' + thing + ' in ' + place + '.'
-ending = ' They lived happily ever after with all the ' + thing + ' they wanted.'
+story = "Once upon a time, there was a dragon called " + name + ". The dragon was a very " + description + " creature, and it was very " + size + ". It liked nothing better than to " +  action + " " + thing + ". Sadly, the dragon was so great at this that it ran out of " + thing + " to " + action + " in " + place + ". The dragon became very bored. Luckily the dragon had a friend called " + friend + ". " + friend + " knew where the dragon could find lots of " + thing + " and the two of them travelled far away from " + place + " and found a land filled with lots of lovely " + thing + " to " + action + ". " + name + " and " + friend + " lived happily ever, with all the " + thing + " they wanted."
 
-# Assemble it
-story = start + description + hobby + problem + helper + journey + ending
+print(story)
+
 --- /code ---
-</div>
 
---- task ---
+
+### Step 3
 
 **Test**: Run your code to create your story!
 
---- /task ---
-
-
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-
-- You could create a list of `enemies` or `heroes`. 
-- Or give the dragon more detail with a list called `colours` that decides what colour skin the dragon's scales are
-- Or a list called `breath` that determines whether the dragon breathes fire, steam, or frost.
-
-</div>
-
-
-<div class="c-project-callout c-project-callout--debug">
-
-### Debugging
-
-- Make sure you follow the formatting exactly. A comma or line indent out of place will cause an error.
-- Error messages sometimes have line numbers, if you get an error check the line for any mistakes.
-- Make sure you add the new parts you make to `story`
-- There are spaces 
-
-</div>

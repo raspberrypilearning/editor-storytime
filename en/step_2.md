@@ -1,33 +1,30 @@
-<h2 class="c-project-heading--task">Print your first line</h2>
+## Get the dragon's name
 
---- task ---
+### Step 1
 
-The story time program generates a story and prints it to the screen so that you can read it. 
+Create a new variable called `name`. 
 
---- /task ---
+Use the `input` function to ask the user for the dragon's name. 
 
---- task --- 
+Store the input in the new `name` variable.
 
-First, use the `print` function to display text in the 'Text output' area of the Editor.
-
---- /task ---
-
-<div class="c-project-code">
 --- code ---
 ---
 language: python
 line_numbers: true
 line_number_start: 1
-line_highlights: 3
+line_highlights: 5
 ---
 from random import choice
 
-print('We are going to tell a story about a dragon!')
+print("We are going to hear a story about a dragon!")
+
+name = input("What is the name of the dragon? ")
+
 --- /code ---
-</div>
---- task ---
 
-Click **Run** to see what happens. You should see the words “We are going to hear a story about a dragon!” appear in the output display.
 
---- /task ---
+### Step 2
+
+Run your code again to test whether the program asks for input.
 

@@ -1,72 +1,45 @@
-<h2 class="c-project-heading--task">Decide if the dragon is old</h2>
---- task ---
+## Add some random details
 
-Use`if` and `else` to set the dragon's age to 'young' or 'old'. 
+Your program will generate a lot of the story at random. 
 
---- /task ---
+You need to create some lists to store different and funny words that the program can choose from.
 
---- task ---
+Lists can be named in the same way as variables. For example, to create a list called `numbers` with four items in it, you could use the line `numbers = ["zero", "one", "two", "three"]`.
 
-Use a **more than** symbol `>` to test the user input. `if` dragons are more than 1000 years, they are old. `else` they are young. 
+### Step 1
 
---- /task ---
+Create a list of things that the dragon can interact with. 
 
+Use the list of items we use here, or add your own items!
 
---- task ---
-
-Record the answer as `phase`. Then add the `phase` into the `description` part of the story.
-
---- /task ---
-
-
-<div class="c-project-code">
 --- code ---
 ---
 language: python
 line_numbers: true
-line_number_start: 5
-line_highlights: 9-12, 16, 19
+line_number_start: 1
+line_highlights: 21
 ---
-# Input from user
-name = input('What is the name of the dragon?')
-size = input('Is the dragon big or small? ')
-age = input('How old is the dragon? Type numbers only ')
+from random import choice
+
+print("We are going to hear a story about a dragon!")
+
+name = input("What is the name of the dragon? ")
+print("Excellent. The dragon is called " + name)
+
+size = input("Is the dragon big or small? ")
+print("It was a " + size + " dragon")
+
+age = input("How old is the dragon? ")
+print("The dragon is " + age + " years old")
+
 if int(age) > 1000:
-    phase = 'old'
+    description = "an old"
 else:
-    phase = 'young'
+    description = "a young"
 
-# Parts of the story
-start = 'Once upon a time, there was a ' + size + ' dragon called ' + name + '.'
-description = name + ' was very ' + phase + '.'
+print("It was an " + description + " dragon.")
 
-# Assemble it
-story = start + description
+things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
+
 --- /code ---
-</div>
 
---- task ---
-
-**Test**: Run your code again and check the output.
-
-If you enter an age less than 1000, you should see the dragon is young.
-If you enter an age more than 1000, you should see the dragon is old.
-
---- /task ---
-
-<div class="c-project-callout c-project-callout--debug">
-
-### Debugging
-
-Check that you added `+` in description to make the story.
-
-</div>
-
-
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-
-In Python, there is a difference between the **character** '1' and the **number** `1`. Using `int(age)` makes the input into a **number**.
-
-</div>

@@ -1,20 +1,30 @@
-<h2 class="c-project-heading--task">What you will make</h2> 
+## Output your first line
 
---- task ---
+The story time program generates a story and prints it to the screen so that you can read it. 
 
-Use Python to generate random stories from your ideas.
+First, use the `print` function to display text in the 'Text output' area of the Editor.
 
---- /task ---
+### Step 1
 
---- task ---
+Type this code on a new line.
 
-Click on the **Run** button to try it out.
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 1
+line_highlights: 3
+---
+from random import choice
 
---- /task ---
+print("We are going to hear a story about a dragon!")
 
-<div class="c-project-output">
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-storytime-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+--- /code ---
 
 
+### Step 2
+
+Click on the <strong>Run</strong> button to see what happens. You should see the words “We are going to hear a story about a dragon!” appear in the output display.
+
+
+You’re ready to ask the user for input, to learn more about the dragon.

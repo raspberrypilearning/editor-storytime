@@ -1,42 +1,34 @@
-<h2 class="c-project-heading--task">Start the story</h2>
+## Size and age of the dragon
 
---- task ---
+It's time to get some more information about the dragon.
 
-Use the dragon's `name` in a `story` and print to the screen.
+### Step 1
 
---- /task ---
-
-<div class="c-project-code">
 --- code ---
 ---
 language: python
 line_numbers: true
-line_number_start: 5
-line_highlights: 8-14
+line_number_start: 1
+line_highlights: 8-12
 ---
-# Input from user
-name = input('What is the name of the dragon?')
+from random import choice
 
-# Parts of the story
-start = 'Once upon a time, there was a dragon called ' + name + '.'
+print("We are going to hear a story about a dragon!")
 
-# Assemble it
-story = start
+name = input("What is the name of the dragon? ")
+print("Excellent. The dragon is called " + name)
 
-print(story) # prints story, keep this at the end
+size = input("Is the dragon big or small? ")
+print("It was a " + size + " dragon")
+
+age = input("How old is the dragon? ")
+print("The dragon is " + age + " years old")
+
 --- /code ---
-</div>
 
---- task ---
+
+### Step 2
 
 **Test**: Run your code again and check the output.
 
---- /task ---
 
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-
-In Python, you can use `+` to join text together.
-
-</div>
