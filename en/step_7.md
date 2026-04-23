@@ -1,14 +1,16 @@
-## Add MORE random details!
+<h2 class="c-project-heading--task">Add MORE random details!</h2>
 
-Add some more lists:
+Add some more lists.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 - A list for the names of the dragon's `friends`
 - A list for `actions` such as "kiss", "throw", and "steal"
 - A list for `places` such as "Middle Earth" and "Narnia"
 
-### Step 1
-
 Make three more lists that have the names `friends`, `actions`, and `places`.
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -24,4 +26,8 @@ actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
 places = ["Middle Earth", "Narnia", "Hogwarts", "Alderaan"]
 
 --- /code ---
+</div>
 
+## Now run your code
+
+Your code should still run, and the new lists are ready for the next step.

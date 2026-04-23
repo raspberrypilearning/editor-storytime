@@ -1,13 +1,14 @@
-## Get the dragon's name
+<h2 class="c-project-heading--task">Get the dragon's name</h2>
 
-### Step 1
+Create a new variable called `name`.
 
-Create a new variable called `name`. 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
-Use the `input` function to ask the user for the dragon's name. 
+Use the `input` function to ask the user for the dragon's name.
 
 Store the input in the new `name` variable.
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -22,9 +23,8 @@ print("We are going to hear a story about a dragon!")
 name = input("What is the name of the dragon? ")
 
 --- /code ---
+</div>
 
+## Now run your code
 
-### Step 2
-
-Run your code again to test whether the program asks for input.
-
+The program should ask for the dragon's name.

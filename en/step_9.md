@@ -1,20 +1,22 @@
-## Tell your story
+<h2 class="c-project-heading--task">Tell your story</h2>
 
-Now you can have some fun with creating your story! 
+Now you can have some fun with creating your story!
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Be as imaginative and creative as you like.
 
-### Step 1
+## Step 1
 
 First, type `story =` to create a variable to store your story in.
 
-
 Now use all the variables you have to make an imaginative story of your own. There is an example provided below, but you can make any story you like.
 
-### Step 2
+## Step 2
 
 Write your story putting the variables together. Then on the last line of your program, print the story to the screen.
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -37,9 +39,8 @@ story = "Once upon a time, there was a dragon called " + name + ". The dragon wa
 print(story)
 
 --- /code ---
+</div>
 
+## Now run your code
 
-### Step 3
-
-**Test**: Run your code to create your story!
-
+Enter the dragon's details and read the story your program creates.

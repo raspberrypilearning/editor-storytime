@@ -1,19 +1,20 @@
-## Is the dragon old?
+<h2 class="c-project-heading--task">Is the dragon old?</h2>
 
-Dragons live for a long time. 
+Dragons live for a long time.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 They are only old if their age is more than 1000 years!
 
-### Step 1
+Use **conditional selection** to set the description to 'young' or 'old'.
 
-Use **conditional selection** to set the description to 'young' or 'old'. 
-
-With `if` and `else` statements, you can make decisions in your Python program. 
+With `if` and `else` statements, you can make decisions in your Python program.
 
 With the **greater than** operator (`>`), you can test whether a number is larger than another number.
 
 **Notice**: You must **type cast** the `age` variable, so the computer uses it as a **number** and not a **character string**. In Python, there is a big difference between the **characters** `1` `0` `0` and the **number** `100`.
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -42,16 +43,12 @@ else:
 print("It was an " + description + " dragon.")
 
 --- /code ---
+</div>
 
-
-### Step 2
-
-**Test**: Run your code again and check the output.
+## Now run your code
 
 If you enter an age less than 1000, you should see the dragon is young.
 
 If you enter an age more than 1000, you should see the dragon is old.
 
 What happens if you enter an age of exactly 1000?
-
-
