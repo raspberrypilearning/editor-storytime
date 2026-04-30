@@ -1,15 +1,18 @@
-## Choose random details
+<h2 class="c-project-heading--task">Choose random details</h2>
 
-Randomly pick one item from each list. 
+Randomly pick one item from each list.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 This will help generate your story, and should make it fun!
 
-### Step 1
+## Step 1
 
-Create a variable called `friend`. 
+Create a variable called `friend`.
 
 Assign the new variable a random item from the `friends` list and use the `friend` variable in a `print` function.
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -26,21 +29,23 @@ friend = choice(friends)
 print("The friend is " + friend)
 
 --- /code ---
+</div>
 
+## Step 2
 
-### Step 2
+Check the output.
 
-**Test**: Run your code and check the output.
 Each time you run the code, the variable should be randomly assigned a new item from the `friends` list.
 
-### Step 3
+## Step 3
 
 **Delete** the print line.
 
-Create three more variables called `action`, `place`, and `thing`. 
+Create three more variables called `action`, `place`, and `thing`.
 
 Assign them random items from the `actions`, `places`, and `things` lists.
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -59,4 +64,8 @@ action = choice(actions)
 place = choice(places)
 
 --- /code ---
+</div>
 
+## Now run your code
+
+Your code should still run, and the random detail variables are ready to use in the story.

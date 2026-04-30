@@ -1,9 +1,10 @@
-## Size and age of the dragon
+<h2 class="c-project-heading--task">Size and age of the dragon</h2>
 
 It's time to get some more information about the dragon.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -25,10 +26,8 @@ age = input("How old is the dragon? ")
 print("The dragon is " + age + " years old")
 
 --- /code ---
+</div>
 
+## Now run your code
 
-### Step 2
-
-**Test**: Run your code again and check the output.
-
-
+You should see the dragon's size and age in the output.
