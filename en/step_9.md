@@ -2,8 +2,6 @@
 
 Now you can have some fun with creating your story!
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Be as imaginative and creative as you like.
 
 ## Step 1
