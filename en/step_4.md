@@ -2,8 +2,6 @@
 
 It's time to get some more information about the dragon.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 <div class="c-project-code">
 --- code ---
 ---
