@@ -2,8 +2,6 @@
 
 Add another line of code to print the name of the dragon to the screen.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Use the `name` variable to print the name to the screen.
 
 In Python, you can use the `+` operator to join strings together.
