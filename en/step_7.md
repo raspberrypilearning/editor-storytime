@@ -2,8 +2,6 @@
 
 Add some more lists.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 - A list for the names of the dragon's `friends`
 - A list for `actions` such as "kiss", "throw", and "steal"
 - A list for `places` such as "Middle Earth" and "Narnia"
