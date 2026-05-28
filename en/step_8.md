@@ -2,8 +2,6 @@
 
 Randomly pick one item from each list.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 This will help generate your story, and should make it fun!
 
 ## Step 1
