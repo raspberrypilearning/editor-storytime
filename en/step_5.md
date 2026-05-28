@@ -2,8 +2,6 @@
 
 Dragons live for a long time.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 They are only old if their age is more than 1000 years!
 
 Use **conditional selection** to set the description to 'young' or 'old'.
