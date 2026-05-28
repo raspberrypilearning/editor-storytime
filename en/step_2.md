@@ -2,8 +2,6 @@
 
 Create a new variable called `name`.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Use the `input` function to ask the user for the dragon's name.
 
 Store the input in the new `name` variable.
