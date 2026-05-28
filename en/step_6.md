@@ -2,8 +2,6 @@
 
 Your program will generate a lot of the story at random.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 You need to create some lists to store different and funny words that the program can choose from.
 
 Lists can be named in the same way as variables. For example, to create a list called `numbers` with four items in it, you could use the line `numbers = ["zero", "one", "two", "three"]`.

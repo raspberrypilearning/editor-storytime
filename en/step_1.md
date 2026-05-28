@@ -2,8 +2,6 @@
 
 The story time program generates a story and prints it to the screen so that you can read it.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 First, use the `print` function to display text in the 'Text output' area of the Editor.
 
 <div class="c-project-code">
