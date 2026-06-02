@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Add MORE random details!</h2>
 
-Add some more lists.
+Add some more lists for:
 
-- A list for the names of the dragon's `friends`
-- A list for `actions` such as "kiss", "throw", and "steal"
-- A list for `places` such as "Middle Earth" and "Narnia"
+- the names of the dragon's `friends`
+- `actions` such as "kiss", "throw", and "steal"
+- `places` such as "Middle Earth" and "Narnia"
 
 Make three more lists that have the names `friends`, `actions`, and `places`.
 
