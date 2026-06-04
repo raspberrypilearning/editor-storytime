@@ -32,7 +32,7 @@ place = choice(places)
 
 # Parts of the story
 start = "Once upon a time, there was a " + size + " dragon called " + name + "."
-description = name + " was very " + phase + "."
+description = name + " was very " + place + "."
 hobby = " It liked to " + action + " " + thing + "."
 problem = " Sadly, the dragon was so great at this that it ran out of " + thing + "."
 helper = " Luckily the dragon had a friend called " + friend + " who knew where to find more " + thing + "."
