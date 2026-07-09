@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Add some random details</h2>
+## Add some random details
 
 Your program will generate a lot of the story at random.
 
@@ -10,14 +10,7 @@ Create a list of things that the dragon can interact with.
 
 Use the list of items we use here, or add your own items!
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 1
-line_highlights: 21
----
+```python line_numbers="true" line_number_start="1" line_highlights="21"
 from random import choice
 
 print("We are going to hear a story about a dragon!")
@@ -32,16 +25,15 @@ age = input("How old is the dragon? ")
 print("The dragon is " + age + " years old")
 
 if int(age) > 1000:
-    description = "an old"
+    description = "old"
 else:
-    description = "a young"
+    description = "young"
 
-print("It was an " + description + " dragon.")
+print("The dragon is " + description + ".")
 
 things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
 
---- /code ---
-</div>
+```
 
 ## Now run your code
 
