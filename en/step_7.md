@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Add MORE random details!</h2>
+## Add MORE random details!
 
 Add some more lists for:
 
@@ -8,23 +8,15 @@ Add some more lists for:
 
 Make three more lists that have the names `friends`, `actions`, and `places`.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 19
-line_highlights: 22-24
----
-print("It was an " + description + " dragon.")
+```python line_numbers="true" line_number_start="19" line_highlights="22-24"
+print("The dragon is " + description + ".")
 
 things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
 friends = ["Amilyn", "Lila", "Nuala", "Idris", "Jonah", "Ari"]
 actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
 places = ["Middle Earth", "Narnia", "Hogwarts", "Alderaan"]
 
---- /code ---
-</div>
+```
 
 ## Now run your code
 

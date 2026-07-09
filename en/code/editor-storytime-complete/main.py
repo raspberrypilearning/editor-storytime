@@ -19,7 +19,7 @@ else:
     description = "young"
 
 # Possible choices 
-things = ["slay", "cakes", "chocolate", "rocks", "kittens"]
+things = ["goblins", "cakes", "chocolate", "rocks", "kittens"]
 friends = ["Amilyn", "Lila", "Nuala", "Idris", "Jonah", "Ari"]
 actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
 places = ["Middle Earth", "Narnia", "Hogwarts", "Alderaan"]
@@ -32,7 +32,7 @@ place = choice(places)
 
 # Parts of the story
 start = "Once upon a time, there was a " + size + " dragon called " + name + "."
-description = name + " was very " + place + "."
+description = " " + name + " was a very " + description + " dragon."
 hobby = " It liked to " + action + " " + thing + "."
 problem = " Sadly, the dragon was so great at this that it ran out of " + thing + "."
 helper = " Luckily the dragon had a friend called " + friend + " who knew where to find more " + thing + "."

@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Choose random details</h2>
+## Choose random details
 
 Randomly pick one item from each list.
 
@@ -10,14 +10,7 @@ Create a variable called `friend`.
 
 Assign the new variable a random item from the `friends` list and use the `friend` variable in a `print` function.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 21
-line_highlights: 26-27
----
+```python line_numbers="true" line_number_start="21" line_highlights="26-27"
 things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
 friends = ["Amilyn", "Lila", "Nuala", "Idris", "Jonah", "Ari"]
 actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
@@ -26,16 +19,13 @@ places = ["Middle Earth", "Narnia", "Hogwarts", "Alderaan"]
 friend = choice(friends)
 print("The friend is " + friend)
 
---- /code ---
-</div>
+```
+
+> [!INFO]
+>
+> Check the output. Each time you run the code, the variable should be randomly assigned a new item from the `friends` list.
 
 ## Step 2
-
-Check the output.
-
-Each time you run the code, the variable should be randomly assigned a new item from the `friends` list.
-
-## Step 3
 
 **Delete** the print line.
 
@@ -43,14 +33,7 @@ Create three more variables called `action`, `place`, and `thing`.
 
 Assign them random items from the `actions`, `places`, and `things` lists.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 21
-line_highlights: 27-29
----
+```python line_numbers="true" line_number_start="21" line_highlights="27-29"
 things = ["goblins", "cakes", "chocolate", "rocks", "trees"]
 friends = ["Amilyn", "Lila", "Nuala", "Idris", "Jonah", "Ari"]
 actions = ["slay", "kiss", "save", "marry", "rescue", "eat"]
@@ -61,8 +44,7 @@ thing = choice(things)
 action = choice(actions)
 place = choice(places)
 
---- /code ---
-</div>
+```
 
 ## Now run your code
 

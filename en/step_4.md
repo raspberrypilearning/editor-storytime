@@ -1,15 +1,8 @@
-<h2 class="c-project-heading--task">Size and age of the dragon</h2>
+## Size and age of the dragon
 
 It's time to get some more information about the dragon.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 1
-line_highlights: 8-12
----
+```python line_numbers="true" line_number_start="1" line_highlights="8-12"
 from random import choice
 
 print("We are going to hear a story about a dragon!")
@@ -23,8 +16,7 @@ print("It was a " + size + " dragon")
 age = input("How old is the dragon? ")
 print("The dragon is " + age + " years old")
 
---- /code ---
-</div>
+```
 
 ## Now run your code
 

@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Is the dragon old?</h2>
+## Is the dragon old?
 
 Dragons live for a long time.
 
@@ -12,14 +12,7 @@ With the **greater than** operator (`>`), you can test whether a number is large
 
 **Notice**: You must **type cast** the `age` variable, so the computer uses it as a **number** and not a **character string**. In Python, there is a big difference between the **characters** `1` `0` `0` and the **number** `100`.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 1
-line_highlights: 14-19
----
+```python line_numbers="true" line_number_start="1" line_highlights="14-19"
 from random import choice
 
 print("We are going to hear a story about a dragon!")
@@ -34,14 +27,13 @@ age = input("How old is the dragon? ")
 print("The dragon is " + age + " years old")
 
 if int(age) > 1000:
-    description = "an old"
+    description = "old"
 else:
-    description = "a young"
+    description = "young"
 
-print("It was an " + description + " dragon.")
+print("The dragon is " + description + ".")
 
---- /code ---
-</div>
+```
 
 ## Now run your code
 
